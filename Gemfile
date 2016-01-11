@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'fluent-plugin-s3'
+gem 'fluent-plugin-elasticsearch'
+
 gemspec
 
 # spec.add_development_dependency gems doesn't installed by `gem install fluentd-ui`, but required them from config/application.rb, then error.

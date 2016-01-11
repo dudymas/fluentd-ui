@@ -29,3 +29,4 @@
 
 /db/*-user.txt
 /db/*-fluentd.json
+.gems

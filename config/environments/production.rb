@@ -68,6 +68,7 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
+  config.assets.prefix = (ENV['FLUENTD_UI_ROUTE_PREFIX'] || '' )+'/assets'
 
   # Don't concat assets for font-awesome path resolving, instead of changing url in css files
   config.assets.debug = true
